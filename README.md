@@ -1,73 +1,100 @@
-# Welcome to your Lovable project
+# 🎓 AI Exam Proctor Detection System
 
-## Project info
+## 📌 Project Overview
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
+The **AI Exam Proctor Detection System** is a web-based application designed to monitor students during online examinations and detect potential malpractice using AI techniques.
 
-## How can I edit this code?
+This system helps ensure fair and secure online assessments by analyzing user behavior through real-time monitoring.
 
-There are several ways of editing your application.
+---
 
-**Use Lovable**
+## 🚀 Features
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
+* 👤 Role-based access (Admin & Student)
+* 🎥 Real-time monitoring (camera integration ready)
+* 🧠 AI-based malpractice detection (extendable)
+* 📊 Dashboard for tracking activities
+* ⚡ Fast and responsive UI
 
-Changes made via Lovable will be committed automatically to this repo.
+---
 
-**Use your preferred IDE**
+## 🛠️ Technologies Used
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+* ⚛️ React (Frontend)
+* ⚡ Vite (Build tool)
+* 📘 TypeScript
+* 🎨 Tailwind CSS
+* 🧩 shadcn-ui components
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+---
 
-Follow these steps:
+## 💻 Installation & Setup
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
+### 1️⃣ Clone the repository
+
+```bash
 git clone <YOUR_GIT_URL>
+```
 
-# Step 2: Navigate to the project directory.
+### 2️⃣ Navigate to project folder
+
+```bash
 cd <YOUR_PROJECT_NAME>
+```
 
-# Step 3: Install the necessary dependencies.
-npm i
+### 3️⃣ Install dependencies
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+```bash
+npm install
+```
+
+### 4️⃣ Run the project
+
+```bash
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+---
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+## 🌐 Run in Browser
 
-**Use GitHub Codespaces**
+After running the project, open:
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+```
+http://localhost:8080
+```
 
-## What technologies are used for this project?
+---
 
-This project is built with:
+## 📂 Project Structure
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+```
+src/
+ ├── components/      # UI Components
+ ├── pages/           # Application pages
+ ├── App.tsx          # Main app file
+ ├── main.tsx         # Entry point
+```
 
-## How can I deploy this project?
+---
 
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
+## 🔮 Future Enhancements
 
-## Can I connect a custom domain to my Lovable project?
+* Face detection & eye tracking
+* Tab switching detection
+* Audio monitoring
+* Report generation system
+* Database integration
 
-Yes, you can!
+---
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+## 👨‍💻 Author
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+**Sujai E**
+
+---
+
+## 📄 License
+
+This project is for educational purposes.
+
